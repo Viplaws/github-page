@@ -1,0 +1,79 @@
+*
+{
+	margin: 0;
+	padding: 0  ;
+}
+
+body
+{
+	background: #eeeeee;
+}
+
+.tm-header
+{
+	background: rgba(255,255,255,0.6);
+}
+
+.tm-header:after
+{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+
+.upper
+{
+	max-width: 120px;
+	margin: 0 ;
+}
+
+.tm-nav ul li
+{
+	display: inline-block;
+}
+
+.tm-nav ul li a
+{
+	padding: 15px 20px;
+	text-decoration: none;
+	color: #303030;
+	line-height: 100px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 30px;
+}
+
+.tm-nav ul li a:hover
+{
+	color: #3e99ff;
+}
+
+.tm-logo
+{
+	float: left;
+}
+
+.tm-nav
+{
+	float: right;
+}
+
+body
+{
+	background-image: url("/home/debajit/GithubMain/images/head.jpg");
+	background-size: cover;
+}
+
+
+footer .footer
+{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: left;
+	padding: 20px;
+	background-color: rgba(20,20,20,0.6);
+	margin-right: 2px;
+}

@@ -1,0 +1,140 @@
+*
+{
+	margin: 0;
+	padding: 0  ;
+}
+
+body
+{
+	background: #eeeeee;
+}
+
+.tm-header
+{
+	background: rgb(255,255,255);
+}
+
+.tm-header:after
+{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+
+.upper
+{
+	max-width: 120px;
+	margin: 0 ;
+}
+
+.tm-nav ul li
+{
+	display: inline-block;
+}
+
+.tm-nav ul li a
+{
+	padding: 15px 20px;
+	text-decoration: none;
+	color: #303030;
+	line-height: 100px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 30px;
+}
+
+.tm-nav ul li a:hover
+{
+	color: #3e99ff;
+}
+
+.tm-logo
+{
+	float: left;
+}
+
+.tm-nav
+{
+	float: right;
+}
+
+.footer
+{
+	position: absolute;
+	top: 50%;
+	width: 100%; /* Full-width */
+  	background-color: #555; /* Dark-grey background */
+  	overflow: auto; /* Overflow due to float */
+}
+.footer a
+{
+	position: absolute;
+	top: 500px;
+
+    float: left; /* Float links side by side */
+  	text-align: center; /* Center-align text */
+  	width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+  	padding: 12px 0; /* Some top and bottom padding */
+  	transition: all 0.3s ease; /* Add transition for hover effects */
+  	color: white; /* White text color */
+  	font-size: 36px; /* Increased font size */
+}
+
+.footer a:hover
+{
+	background-color: #000; /* Add a hover color */
+}
+
+.active {
+  	background-color: #4CAF50; /* Add an active/current color */
+}
+/*.symbol
+{
+	float: left;
+	width: 7%;
+	height: auto;
+	padding: 5px;
+	margin: 0 75 px 0 0;
+}
+
+
+.row::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+
+/*.footer
+{
+	padding: 10px;
+	background-color: black;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+.footer div a
+{
+	padding-right: 30px;
+	text-decoration: none;
+	font-family: 'Lobster', cursive;
+	color: white;
+	float: right;
+}
+
+.footer div a:hover
+{
+	color: #CCFF00;	
+}*/
+
+/*.footer
+{
+	background: #fff;
+	text-align: center;
+	padding: 20px;
+	height: 1000px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}

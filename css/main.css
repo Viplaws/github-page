@@ -1,0 +1,130 @@
+*
+{
+	margin: 0;
+	padding: 0  ;
+}
+
+body
+{
+	background: #eeeeee;
+}
+
+.tm-header
+{
+	background: rgba(255,255,255,0.6);
+}
+
+.tm-header:after
+{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+
+.upper
+{
+	max-width: 120px;
+	margin: 0 ;
+}
+
+.tm-nav ul li
+{
+	display: inline-block;
+}
+
+.tm-nav ul li a
+{
+	padding: 15px 20px;
+	text-decoration: none;
+	color: #303030;
+	line-height: 100px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 30px;
+}
+
+.tm-nav ul li a:hover
+{
+	color: #3e99ff;
+}
+
+.tm-logo
+{
+	float: left;
+}
+
+.tm-nav
+{
+	float: right;
+}
+
+body
+{
+	background-image: url("/home/debajit/GithubMain/images/head.jpg");
+	background-size: cover;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+.footer
+{
+
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	background-color: rgba(255,255,255,0.6);
+	margin-right: 2px;
+}
+
+.boxed
+{
+
+ 	font-size: 200%;
+	border-radius: 25px;
+	padding: 50px;
+	background-color: rgba(255,255,255,0.3);
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	right: 25%;
+	margin-top: -50px;
+
+	background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  	background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  	color: transparent;
+  	-webkit-background-clip: text;
+  	background-clip: text;
+
+}
+
+
+.hobbies
+{
+	font-size: 200%;
+	border-radius: 25px;
+	padding: 50px;
+	background-color: rgba(255,255,255,0.3);
+	position: absolute;
+	top: 30%;
+	left: 15%;
+	right: 25%;
+	margin-top: -50px;
+
+	background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  	background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  	color:transparent;
+  	-webkit-background-clip: text;
+  	background-clip: text;
+}
+
+.section
+{
+	position: absolute;
+	font-size: 400%;
+	color: white;
+	left: 25%;
+	top: 40%;
+}
